@@ -1,14 +1,6 @@
-# JupyterLite Demo
+# Starformation via JupyterLite
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
-
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
-
-## ✨ Try it in your browser ✨
-
-➡️ **https://jupyterlite.github.io/demo**
-
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
+This site explores star formation with a jupyter notebook. It uses Jupyterlite to run the notebook entirely in your browser.
 
 ## Requirements
 
@@ -17,21 +9,13 @@ JupyterLite is being tested against modern web browsers:
 - Firefox 90+
 - Chromium 89+
 
-## Deploy your JupyterLite website on GitHub Pages
+## Info
 
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
+The starformation notebook contains notes/explorations that I have used while learning about star formation. This site runs entirely in your browser. You may make changes and save them. Unfortunately, if you save changes, then you will not see any updates that are made on the server. There are two workarounds that can be used:
 
-## Further Information and Updates
+1. Use a private window. All changes will be lost when the window is closed, but they will persist as long as the window is open
+2. Clear the Indexed DB. Right click on the page, hit inspect. Then find nephinumerics in the Indexed DB and delete any entries. 
 
-For more info, keep an eye on the JupyterLite documentation:
 
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
-
-This template provides the Pyodide kernel (`jupyterlite-pyodide-kernel`), the JavaScript kernel (`jupyterlite-javascript-kernel`), and the p5 kernel (`jupyterlite-p5-kernel`), along with other
-optional utilities and extensions to make the JupyterLite experience more enjoyable. See the
-[`requirements.txt` file](requirements.txt) for a list of all the dependencies provided.
-
-For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
 
 
